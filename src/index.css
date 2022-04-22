@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  *,
+  *::before,
+  *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+  }
+
+  html {
+    font-size: 62.5%;
+  }
+
+  body {
+    @apply text-md font-normal text-primary-darkText antialiased;
+  }
+
+  @media screen and (max-width: 1366px) {
+    html {
+      font-size: 58.8%;
+    }
+  }
+
+  @media screen and (max-width: 1280px) {
+    html {
+      font-size: 55%;
+    }
+  }
+
+  @media screen and (max-width: 1080px) {
+    html {
+      font-size: 50%;
+    }
+  }
+}
