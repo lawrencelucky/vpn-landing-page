@@ -25,12 +25,9 @@ const Network = () => {
             locations.
           </p>
         </div>
-        <img
-          src={Global}
-          alt='globe'
-          className='max-w-[100rem] w-full'
-          draggable='false'
-        />
+        <div className='max-w-[100rem]'>
+          <img src={Global} alt='globe' className='w-full' draggable='false' />
+        </div>
         <div className='mt-[7rem]'>
           <Swiper
             slidesPerView={4}

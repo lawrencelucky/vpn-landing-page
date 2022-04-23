@@ -18,11 +18,9 @@ const Hero = () => {
       </div>
 
       <div className='flex-1'>
-        <img
-          src={HeroIlustration}
-          alt='illustration'
-          className='max-w-[60rem] w-full'
-        />
+        <div className='max-w-[60rem]'>
+          <img src={HeroIlustration} alt='illustration' className='w-full' />
+        </div>
       </div>
     </div>
   );
