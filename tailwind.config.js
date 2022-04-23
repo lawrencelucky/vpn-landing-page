@@ -16,7 +16,8 @@ module.exports = {
       current: 'currentColor',
       primary: {
         red: '#F53838',
-        darkText: '#4F5665',
+        darkText: '#0B132A',
+        grayText: '#4F5665',
         lightText: '#AFB5C0',
       },
       other: {

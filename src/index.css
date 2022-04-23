@@ -17,11 +17,11 @@
   }
 
   body {
-    @apply text-md font-normal text-primary-darkText min-h-screen antialiased;
+    @apply text-md font-normal text-primary-grayText min-h-screen antialiased;
   }
 
   .btn {
-    @apply bg-primary-red text-other-white text-md font-bold rounded px-[2.4rem] h-[4.5rem] shadow-md;
+    @apply bg-primary-red text-other-white text-md font-bold rounded px-[2.4rem] h-[4.5rem] shadow-md md:hover:scale-105 ease-in-out duration-500;
   }
 
   .btn-outline {
