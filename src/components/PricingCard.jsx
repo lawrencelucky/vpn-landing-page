@@ -2,14 +2,10 @@ import PricingIllustration from '../assets/images/pricing-illustration.svg';
 
 const PricingCard = ({ plan, children, price }) => {
   return (
-    <div className='bg-other-white border border-other-line rounded p-[3rem] md:px-[6rem] md:py-[4rem] max-w-[33rem] w-full flex flex-col justify-between mb-[3rem] sm:mr-[3rem] lg:mr-0 lg:mb-0 lg:hover:scale-105 ease-in-out duration-500 cursor-pointer lg:hover:border-primary-red lg:hover:shadow-lg-dark'>
+    <div className='bg-other-white border border-other-line rounded p-[3rem] md:px-[6rem] md:py-[4rem] max-w-[33rem] w-full flex flex-col justify-between mb-[3rem] sm:mr-[3rem] lg:mr-0 lg:mb-0 lg:hover:scale-105 ease-in-out duration-500 cursor-pointer lg:hover:border-primary-red lg:hover:shadow-lg-dark no-highlight'>
       <div className='flex flex-col items-center'>
         <div className='max-w-[14rem]'>
-          <img
-            src={PricingIllustration}
-            alt='pricing'
-            className='w-full no-highlight'
-          />
+          <img src={PricingIllustration} alt='pricing' className='w-full' />
         </div>
         <p className='font-bold my-[3rem] text-center text-primary-darkText'>
           {plan} Plan
