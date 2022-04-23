@@ -5,7 +5,7 @@ import Check from '../assets/images/check.svg';
 const Pricing = () => {
   return (
     <div className='bg-other-grayBg'>
-      <div className='section px-[2rem] py-[4rem] md:px-[15rem] md:py-[7rem] flex flex-col'>
+      <div className='section px-[2rem] py-[4rem] md:px-[15rem] md:py-[7rem]'>
         <h2 className='text-lg md:text-xl font-medium mb-[2rem] text-center text-primary-darkText'>
           Choose Your Plan
         </h2>
