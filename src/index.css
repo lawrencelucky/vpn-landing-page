@@ -17,7 +17,7 @@
   }
 
   body {
-    @apply text-md font-normal text-primary-darkText antialiased;
+    @apply text-md font-normal text-primary-darkText min-h-screen antialiased;
   }
 
   .btn {
