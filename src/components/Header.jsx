@@ -12,15 +12,15 @@ const Header = () => {
         src={Logo}
         alt='Logo'
         draggable='false'
-        className='w-[10rem] sm:w-[12rem] lg:w-[15rem]'
+        className='w-[12rem] lg:w-[15rem]'
       />
 
       {/* Navigation */}
       <div className='relative'>
         <ul
           className={`${
-            openDrawer && 'bottom-0 opacity-100'
-          } h-screen fixed bottom-[100%] opacity-0 right-0 w-full bg-other-white flex flex-col justify-center items-center ease-in-out duration-300 md:opacity-100 md:static md:flex-row md:h-full md:p-0`}
+            openDrawer ? 'right-0 opacity-100' : 'right-[-100%] opacity-0'
+          } h-screen fixed top-0  w-full bg-other-white flex flex-col justify-center items-center ease-in-out duration-500 md:opacity-100 md:static md:flex-row md:h-full md:p-0`}
         >
           <AiOutlineClose
             onClick={() => setOpenDrawer(false)}
