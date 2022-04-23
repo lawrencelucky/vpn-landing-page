@@ -7,7 +7,7 @@ const Header = () => {
   const [openDrawer, setOpenDrawer] = useState(false);
 
   return (
-    <div className='section flex justify-between items-center p-[2rem] lg:py-[4.5rem] lg:px-[15rem]'>
+    <div className='section flex justify-between items-center p-[2rem] lg:py-[4.5rem] lg:px-[15rem] sticky top-0 w-full bg-other-white shadow-sm-dark'>
       <img
         src={Logo}
         alt='Logo'

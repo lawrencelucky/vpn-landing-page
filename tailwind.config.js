@@ -32,6 +32,7 @@ module.exports = {
       full: '100%',
     },
     boxShadow: {
+      'sm-dark': '0px 2px 6px 0px rgba(0,0,0,0.1)',
       md: '0px 8px 12px 0px #F5383859',
       'md-dark': '0px 6px 8px 0px rgba(0,0,0,0.1)',
       none: '0 0 #0000',
