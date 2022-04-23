@@ -7,7 +7,7 @@ const Header = () => {
   const [openDrawer, setOpenDrawer] = useState(false);
 
   return (
-    <div className='sticky top-0 w-full bg-other-white shadow-sm-dark'>
+    <div className='sticky top-0 w-full bg-other-white shadow-sm-dark z-50'>
       <div className='section flex justify-between items-center p-[2rem] lg:py-[2rem] lg:px-[15rem]'>
         <img
           src={Logo}
