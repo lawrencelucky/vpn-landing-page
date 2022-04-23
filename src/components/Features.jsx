@@ -23,7 +23,7 @@ const Features = () => {
           <li className='flex items-center mb-[1.6rem]'>
             <img src={CheckMark} alt='check-icon' className='w-[2.4rem]' />
             <span className='text-sm ml-[1rem]'>
-              Powerfull online protection.
+              Powerful online protection.
             </span>
           </li>
           <li className='flex items-center mb-[1.6rem]'>
