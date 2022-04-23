@@ -18,67 +18,127 @@ const Pricing = () => {
         <div className='flex flex-wrap justify-center lg:justify-between'>
           <PricingCard plan='Free'>
             <div className='flex items-center mb-[1rem]'>
-              <img src={Check} alt='check' className='w-[2.4rem]' />
+              <img
+                src={Check}
+                alt='check'
+                className='w-[2.4rem] no-highlight'
+              />
               <p className='text-sm ml-[2rem]'>Unlimited Bandwitch</p>
             </div>
             <div className='flex items-center mb-[1rem]'>
-              <img src={Check} alt='check' className='w-[2.4rem]' />
+              <img
+                src={Check}
+                alt='check'
+                className='w-[2.4rem] no-highlight'
+              />
               <p className='text-sm ml-[2rem]'>Encrypted Connection</p>
             </div>
             <div className='flex items-center mb-[1rem]'>
-              <img src={Check} alt='check' className='w-[2.4rem]' />
+              <img
+                src={Check}
+                alt='check'
+                className='w-[2.4rem] no-highlight'
+              />
               <p className='text-sm ml-[2rem]'>No Traffic Logs</p>
             </div>
             <div className='flex items-center mb-[1rem]'>
-              <img src={Check} alt='check' className='w-[2.4rem]' />
+              <img
+                src={Check}
+                alt='check'
+                className='w-[2.4rem] no-highlight'
+              />
               <p className='text-sm ml-[2rem]'>Works on All Devices</p>
             </div>
           </PricingCard>
           <PricingCard plan='Standard' price='9'>
             <div className='flex items-center mb-[1rem]'>
-              <img src={Check} alt='check' className='w-[2.4rem]' />
+              <img
+                src={Check}
+                alt='check'
+                className='w-[2.4rem] no-highlight'
+              />
               <p className='text-sm ml-[2rem]'>Unlimited Bandwitch</p>
             </div>
             <div className='flex items-center mb-[1rem]'>
-              <img src={Check} alt='check' className='w-[2.4rem]' />
+              <img
+                src={Check}
+                alt='check'
+                className='w-[2.4rem] no-highlight'
+              />
               <p className='text-sm ml-[2rem]'>Encrypted Connection</p>
             </div>
             <div className='flex items-center mb-[1rem]'>
-              <img src={Check} alt='check' className='w-[2.4rem]' />
+              <img
+                src={Check}
+                alt='check'
+                className='w-[2.4rem] no-highlight'
+              />
               <p className='text-sm ml-[2rem]'>Yes Traffic Logs</p>
             </div>
             <div className='flex items-center mb-[1rem]'>
-              <img src={Check} alt='check' className='w-[2.4rem]' />
+              <img
+                src={Check}
+                alt='check'
+                className='w-[2.4rem] no-highlight'
+              />
               <p className='text-sm ml-[2rem]'>Works on All Devices</p>
             </div>
             <div className='flex items-center'>
-              <img src={Check} alt='check' className='w-[2.4rem]' />
+              <img
+                src={Check}
+                alt='check'
+                className='w-[2.4rem] no-highlight'
+              />
               <p className='text-sm ml-[2rem]'>Connect Anyware</p>
             </div>
           </PricingCard>
           <PricingCard plan='Premium' price='12'>
             <div className='flex items-center mb-[1rem]'>
-              <img src={Check} alt='check' className='w-[2.4rem]' />
+              <img
+                src={Check}
+                alt='check'
+                className='w-[2.4rem] no-highlight'
+              />
               <p className='text-sm ml-[2rem]'>Unlimited Bandwitch</p>
             </div>
             <div className='flex items-center mb-[1rem]'>
-              <img src={Check} alt='check' className='w-[2.4rem]' />
+              <img
+                src={Check}
+                alt='check'
+                className='w-[2.4rem] no-highlight'
+              />
               <p className='text-sm ml-[2rem]'>Encrypted Connection</p>
             </div>
             <div className='flex items-center mb-[1rem]'>
-              <img src={Check} alt='check' className='w-[2.4rem]' />
+              <img
+                src={Check}
+                alt='check'
+                className='w-[2.4rem] no-highlight'
+              />
               <p className='text-sm ml-[2rem]'>Yes Traffic Logs</p>
             </div>
             <div className='flex items-center mb-[1rem]'>
-              <img src={Check} alt='check' className='w-[2.4rem]' />
+              <img
+                src={Check}
+                alt='check'
+                className='w-[2.4rem] no-highlight'
+              />
               <p className='text-sm ml-[2rem]'>Works on All Devices</p>
             </div>
             <div className='flex items-center mb-[1rem]'>
-              <img src={Check} alt='check' className='w-[2.4rem]' />
+              <img
+                src={Check}
+                alt='check'
+                className='w-[2.4rem] no-highlight'
+              />
               <p className='text-sm ml-[2rem]'>Connect Anyware</p>
             </div>
             <div className='flex items-center'>
-              <img src={Check} alt='check' className='w-[2.4rem]' />
+              <img
+                src={Check}
+                alt='check'
+                className='w-[2.4rem] no-highlight'
+              />
               <p className='text-sm ml-[2rem]'>Get New Features</p>
             </div>
           </PricingCard>

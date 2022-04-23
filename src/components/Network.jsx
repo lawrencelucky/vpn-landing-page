@@ -26,9 +26,14 @@ const Network = () => {
           </p>
         </div>
         <div className='max-w-[100rem]'>
-          <img src={Global} alt='globe' className='w-full' draggable='false' />
+          <img
+            src={Global}
+            alt='globe'
+            className='w-full no-highlight'
+            draggable='false'
+          />
         </div>
-        <div className='mt-[7rem]'>
+        <div className='mt-[7rem] no-highlight'>
           <Swiper
             slidesPerView={4}
             spaceBetween={30}

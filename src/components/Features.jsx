@@ -9,7 +9,7 @@ const Features = () => {
           <img
             src={FeaturesIllustration}
             alt='illustration'
-            className='w-full'
+            className='w-full no-highlight'
           />
         </div>
       </div>
@@ -23,21 +23,37 @@ const Features = () => {
         </p>
         <ul>
           <li className='flex items-center mb-[1.6rem]'>
-            <img src={CheckMark} alt='check-icon' className='w-[2.4rem]' />
+            <img
+              src={CheckMark}
+              alt='check-icon'
+              className='w-[2.4rem] no-highlight'
+            />
             <span className='text-sm ml-[1rem]'>
               Powerful online protection.
             </span>
           </li>
           <li className='flex items-center mb-[1.6rem]'>
-            <img src={CheckMark} alt='check-icon' className='w-[2.4rem]' />
+            <img
+              src={CheckMark}
+              alt='check-icon'
+              className='w-[2.4rem] no-highlight'
+            />
             <span className='text-sm ml-[1rem]'>Internet without borders.</span>
           </li>
-          <li className='flex items-center mb-[1.6rem]'>
-            <img src={CheckMark} alt='check-icon' className='w-[2.4rem]' />
+          <li className='flex items-center mb-[1.6rem] '>
+            <img
+              src={CheckMark}
+              alt='check-icon'
+              className='w-[2.4rem] no-highlight'
+            />
             <span className='text-sm ml-[1rem]'>Supercharged VPN</span>
           </li>
           <li className='flex items-center'>
-            <img src={CheckMark} alt='check-icon' className='w-[2.4rem]' />
+            <img
+              src={CheckMark}
+              alt='check-icon'
+              className='w-[2.4rem] no-highlight'
+            />
             <span className='text-sm ml-[1rem]'>No specific time limits.</span>
           </li>
         </ul>
