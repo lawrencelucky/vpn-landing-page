@@ -16,7 +16,7 @@ const Network = () => {
   return (
     <div className='bg-other-grayBg'>
       <div className='section px-[2rem] py-[4rem] md:px-[15rem] md:py-[7rem]'>
-        <h2 className='text-xl font-medium text-center mb-[2rem] text-primary-darkText'>
+        <h2 className='text-lg md:text-xl font-medium text-center mb-[2rem] text-primary-darkText'>
           Huge Global Network of Fast VPN
         </h2>
         <div className='flex justify-center mb-[4rem] md:mb-[10rem]'>
