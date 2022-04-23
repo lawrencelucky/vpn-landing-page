@@ -22,11 +22,23 @@ module.exports = {
       other: {
         lightRed: '#FFECEC',
         line: '#DDDDDD',
+        white: '#FFFFFF',
       },
+    },
+    borderRadius: {
+      DEFAULT: '8px',
+      '4xl': '124px',
     },
     boxShadow: {
       md: '0px 8px 12px 0px #F5383859',
       none: '0 0 #0000',
+    },
+    screens: {
+      sm: '641px',
+      md: '769px',
+      lg: '1025px',
+      xl: '1281px',
+      '2xl': '1536px',
     },
     extend: {},
   },

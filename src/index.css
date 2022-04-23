@@ -20,6 +20,18 @@
     @apply text-md font-normal text-primary-darkText antialiased;
   }
 
+  .btn {
+    @apply bg-primary-red text-other-white text-md font-bold rounded px-[2.4rem] h-[4.5rem] shadow-md;
+  }
+
+  .btn-outline {
+    @apply bg-other-white text-primary-red text-md font-medium rounded-4xl border border-primary-red px-[2.4rem] h-[4.5rem] md:hover:bg-primary-red md:hover:text-other-white md:hover:shadow-md ease-out duration-300;
+  }
+
+  .section {
+    @apply max-w-[144rem] mx-auto;
+  }
+
   @media screen and (max-width: 1366px) {
     html {
       font-size: 58.8%;
