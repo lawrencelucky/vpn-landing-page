@@ -38,11 +38,11 @@ const Header = () => {
           <li className='cursor-pointer md:hover:text-primary-red ease-out duration-300 text-lg mb-[2rem] md:mb-0 md:text-md md:mr-[4rem]'>
             Testimonies
           </li>
-          <li className='cursor-pointer md:hover:text-primary-red ease-out duration-300 text-lg mb-[2rem] md:mb-0 md:text-md'>
+          <li className='cursor-pointer md:hover:text-primary-red ease-out duration-300 text-lg md:mb-0 md:text-md'>
             Help
           </li>
 
-          <div className='flex flex-col items-center md:hidden absolute bottom-[3rem]'>
+          <div className='flex flex-col items-center absolute bottom-[3rem] md:hidden'>
             <p className='font-medium text-md cursor-pointer text-primary-red ease-out duration-300 mb-[2.4rem]'>
               Sign In
             </p>
