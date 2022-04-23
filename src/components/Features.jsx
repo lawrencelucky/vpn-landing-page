@@ -3,7 +3,7 @@ import CheckMark from '../assets/images/check-mark.svg';
 
 const Features = () => {
   return (
-    <div className='section px-[2rem] py-[4rem] md:px-[15rem] md:py-[7rem] flex flex-col md:flex-row md:justify-between'>
+    <div className='section px-[2rem] pb-[4rem] md:px-[15rem] md:py-[7rem] flex flex-col md:flex-row md:justify-between'>
       <div className='flex-1 flex justify-center md:mr-[18rem] mb-[4rem] md:mb-0'>
         <img
           src={FeaturesIllustration}
