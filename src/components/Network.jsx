@@ -33,7 +33,7 @@ const Network = () => {
         />
         <div className='mt-[7rem]'>
           <Swiper
-            slidesPerView={3}
+            slidesPerView={4}
             spaceBetween={30}
             loop={true}
             loopFillGroupWithBlank={true}
