@@ -29,9 +29,11 @@ module.exports = {
     borderRadius: {
       DEFAULT: '8px',
       '4xl': '124px',
+      full: '100%',
     },
     boxShadow: {
       md: '0px 8px 12px 0px #F5383859',
+      'md-dark': '0px 6px 8px 0px rgba(0,0,0,0.1)',
       none: '0 0 #0000',
     },
     screens: {
